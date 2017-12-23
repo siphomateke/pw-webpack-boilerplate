@@ -1,0 +1,30 @@
+// Breakpoints
+$breakpoints: (
+  "phone":        400px,
+  "phone-wide":   480px,
+  "phablet":      550px,
+  "tablet-small": 640px,
+  "tablet":       750px,
+  "desktop":      1000px,
+  "desktop-wide": 1200px
+);
+
+$zindecies: ();
+
+// Colours
+$colour-black: #000;
+
+// Fonts
+$font-title: Prata, serif;
+$font-text: Cairo, sans-serif;
+
+// Font-sizes
+%size-text {
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: map_get($breakpoints, "tablet")) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
