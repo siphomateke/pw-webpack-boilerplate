@@ -8,7 +8,7 @@ Mainly built for my own needs.
 First, clone the repository:
 
 ```
-$ git clone https://github.com/nextgensparx/pw-webpack-boilerplate.git
+$ git clone https://github.com/siphomateke/pw-webpack-boilerplate.git
 ```
 
 Next, install ProcessWire, as you normally would, into the `dist/` directory and add the following to your `config.php`:
